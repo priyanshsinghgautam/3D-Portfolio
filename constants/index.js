@@ -14,18 +14,18 @@ const navLinks = [
     id: "about",
     title: "About",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
   {
     id: "skills",
     title: "Skills",
   },
-  {
-    id: "projects",
-    title: "Projects",
-  },
+  // {
+  //   id: "projects",
+  //   title: "Projects",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -34,7 +34,7 @@ const navLinks = [
 
 const services = [
   {
-    title: "Software Developer",
+    title: "Web Designer",
     icon: <FullStackIcon />,
   },
   {
@@ -81,21 +81,21 @@ const technologies = {
       icon: "/assets/tech/typescript.svg",
       link: "https://www.typescriptlang.org/",
     },
-    {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
-    },
+    // {
+    //   name: "C",
+    //   icon: "/assets/tech/c.svg",
+    //   link: "https://en.cppreference.com/w/c",
+    // },
     {
       name: "Java",
       icon: "/assets/tech/java.svg",
       link: "https://www.java.com/en/",
     },
-    {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
-    },
+    // {
+    //   name: "Python",
+    //   icon: "/assets/tech/python.svg",
+    //   link: "https://www.python.org/",
+    // },
   ],
   frameworks: [
     {
@@ -113,11 +113,11 @@ const technologies = {
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
+    // {
+    //   name: "Flutter",
+    //   icon: "/assets/tech/flutter.svg",
+    //   link: "https://flutter.dev/",
+    // },
   ],
   libraries: [
     {
@@ -130,36 +130,36 @@ const technologies = {
       icon: "/assets/tech/threejs.svg",
       link: "https://threejs.org/",
     },
-    {
-      name: "Styled-Components",
-      icon: "/assets/tech/styled-components.png",
-      link: "https://styled-components.com/",
-    },
+    // {
+    //   name: "Styled-Components",
+    //   icon: "/assets/tech/styled-components.png",
+    //   link: "https://styled-components.com/",
+    // },
     {
       name: "Framer-motion",
       icon: "/assets/tech/framer.svg",
       link: "https://www.framer.com/motion/",
     },
-    {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
-    },
-    {
-      name: "Redux/Redux-toolkit",
-      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      link: "https://redux.js.org",
-    },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+    // {
+    //   name: "Zustand",
+    //   icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+    //   link: "https://zustand-demo.pmnd.rs",
+    // },
+    // {
+    //   name: "Redux/Redux-toolkit",
+    //   icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+    //   link: "https://redux.js.org",
+    // },
+    // {
+    //   name: "NextAuth.js",
+    //   icon: "/assets/tech/nextauthjs.png",
+    //   link: "https://next-auth.js.org/",
+    // },
+    // {
+    //   name: "Prisma",
+    //   icon: "/assets/tech/prisma.svg",
+    //   link: "https://www.prisma.io/",
+    // },
   ],
   tools: [
     {
@@ -172,11 +172,11 @@ const technologies = {
       icon: "/assets/icons/github.svg",
       link: "https://github.com/",
     },
-    {
-      name: "Postman",
-      icon: "/assets/tech/postman.svg",
-      link: "https://www.postman.com/",
-    },
+    // {
+    //   name: "Postman",
+    //   icon: "/assets/tech/postman.svg",
+    //   link: "https://www.postman.com/",
+    // },
     {
       name: "Figma",
       icon: "/assets/tech/figma.svg",
@@ -211,11 +211,11 @@ const technologies = {
       icon: "/assets/tech/mongodb.svg",
       link: "https://www.mongodb.com/",
     },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
+    // {
+    //   name: "Firebase",
+    //   icon: "/assets/tech/firebase.svg",
+    //   link: "https://firebase.google.com/",
+    // },
   ],
 };
 
@@ -233,32 +233,32 @@ const experiences = [
   //     "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
   //   ],
   // },
-  {
-    title: "Frontend Developer Intern",
-    company_name: "Intern at Curowell Healthcare Private Ltd",
-    icon: "/assets/company/curowell-logo.svg",
-    iconBg: "#E6DEDD",
-    date: "November 2023",
-    points: [
-      "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
-      "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
-      "Contributing to the DND form microfrontend, improving user interaction by 30%.",
-      "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
-    ],
-  },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
-    iconBg: "#E6DEDD",
-    date: "November 2023",
-    points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
-    ],
-  },
+  // {
+  //   title: "Frontend Developer Intern",
+  //   company_name: "Intern at Curowell Healthcare Private Ltd",
+  //   icon: "/assets/company/curowell-logo.svg",
+  //   iconBg: "#E6DEDD",
+  //   date: "November 2023",
+  //   points: [
+  //     "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
+  //     "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
+  //     "Contributing to the DND form microfrontend, improving user interaction by 30%.",
+  //     "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
+  //   ],
+  // },
+  // {
+  //   title: "Full Stack Developer Intern",
+  //   company_name: "Intern at DRDO CABS",
+  //   icon: "/assets/company/drdo-cabs.png",
+  //   iconBg: "#E6DEDD",
+  //   date: "November 2023",
+  //   points: [
+  //     "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
+  //     "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
+  //     "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
+  //     "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+  //   ],
+  // },
   // {
   //   title: "Frontend Developer",
   //   company_name: "Tech team member at GDSC MVJCE",
@@ -301,227 +301,227 @@ const testimonials = [
   },
 ];
 
-const projects = [
-  {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
-    description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "cloudinary",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
-  },
-  {
-    name: "FigPro",
-    description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
-  },
-  // {
-  //   name: "GDSC Website",
-  //   description:
-  //     "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "styled-components",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "three.js",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "prisma",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "framer-motion",
-  //       color: "yellow-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/gdsc-website.png",
-  //   source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-  //   deployed_link: "https://gdscmvjce.vercel.app/",
-  // },
-  {
-    name: "Facility Management System",
-    description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "/assets/projects/facility-manager.png",
-    source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
-  },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
-];
+// const projects = [
+//   {
+//     name: "QuickEdit: AI-Powered Image & Video Editor",
+//     description:
+//       "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+//     tags: [
+//       {
+//         name: "typescript",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "next.js",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwindcss",
+//         color: "pink-text-gradient",
+//       },
+//       {
+//         name: "shadcn",
+//         color: "orange-text-gradient",
+//       },
+//       {
+//         name: "cloudinary",
+//         color: "yellow-text-gradient",
+//       },
+//     ],
+//     image:
+//       "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
+//     source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
+//     deployed_link: "https://quick-edit-app.vercel.app",
+//   },
+//   {
+//     name: "FigPro",
+//     description:
+//       "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+//     tags: [
+//       {
+//         name: "typescript",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "next.js",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwindcss",
+//         color: "pink-text-gradient",
+//       },
+//       {
+//         name: "fabricjs",
+//         color: "orange-text-gradient",
+//       },
+//       {
+//         name: "liveblocks",
+//         color: "yellow-text-gradient",
+//       },
+//     ],
+//     image: "/assets/projects/fig-pro.png",
+//     source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
+//     deployed_link: "https://fig-pro-github.vercel.app",
+//   },
+//   // {
+//   //   name: "GDSC Website",
+//   //   description:
+//   //     "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+//   //   tags: [
+//   //     {
+//   //       name: "next.js",
+//   //       color: "blue-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "styled-components",
+//   //       color: "green-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "three.js",
+//   //       color: "pink-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "prisma",
+//   //       color: "orange-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "framer-motion",
+//   //       color: "yellow-text-gradient",
+//   //     },
+//   //   ],
+//   //   image: "/assets/projects/gdsc-website.png",
+//   //   source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
+//   //   deployed_link: "https://gdscmvjce.vercel.app/",
+//   // },
+//   {
+//     name: "Facility Management System",
+//     description:
+//       "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+//     tags: [
+//       {
+//         name: "typescript",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "react",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwindcss",
+//         color: "pink-text-gradient",
+//       },
+//       {
+//         name: "node.js",
+//         color: "orange-text-gradient",
+//       },
+//       {
+//         name: "tanstack/react-query",
+//         color: "yellow-text-gradient",
+//       },
+//     ],
+//     image: "/assets/projects/facility-manager.png",
+//     source_code_link:
+//       "https://github.com/Shivam-Sharma-1/Facility-Management-System",
+//     deployed_link:
+//       "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+//   },
+//   // {
+//   //   name: "Netflix Clone",
+//   //   description:
+//   //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
+//   //   tags: [
+//   //     {
+//   //       name: "next.js",
+//   //       color: "blue-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "typescript",
+//   //       color: "green-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "tailwindcss",
+//   //       color: "pink-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "mongodb",
+//   //       color: "orange-text-gradient",
+//   //     },
+//   //   ],
+//   //   image: "/assets/projects/netflix-clone.png",
+//   //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
+//   //   deployed_link: "https://netflix-clone12345.vercel.app",
+//   // },
+//   // {
+//   //   name: "Van-Life",
+//   //   description:
+//   //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
+//   //   tags: [
+//   //     {
+//   //       name: "react",
+//   //       color: "blue-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "mirage.js",
+//   //       color: "green-text-gradient",
+//   //     },
+//   //     {
+//   //       name: "firebase-firestore",
+//   //       color: "pink-text-gradient",
+//   //     },
+//   //   ],
+//   //   image: "/assets/projects/vanlife.png",
+//   //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
+//   //   deployed_link: "https://myvanlife.netlify.app",
+//   // },
+//   // {
+//   // 	name: "Spooky-Run",
+//   // 	description:
+//   // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
+//   // 	tags: [
+//   // 		{
+//   // 			name: "html5",
+//   // 			color: "blue-text-gradient"
+//   // 		},
+//   // 		{
+//   // 			name: "css3",
+//   // 			color: "green-text-gradient"
+//   // 		},
+//   // 		{
+//   // 			name: "javascript",
+//   // 			color: "pink-text-gradient"
+//   // 		}
+//   // 	],
+//   // 	image: "/assets/projects/spooky-run.png",
+//   // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
+//   // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
+//   // }
+// ];
 
 const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/priyanshsinghgautam",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/priyansh-singh-gautam-244539274",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://x.com/PriyanshSinghg7",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/priyansh_singh_gautam/",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
+  "React developer",
   500,
   "Freelancer",
   500,
@@ -529,7 +529,7 @@ const heroTexts = [
   500,
   "Frontend developer",
   500,
-  "Backend developer",
+  "Web Designer",
   500,
   "Problem solver",
   500,
@@ -539,9 +539,9 @@ export {
   navLinks,
   services,
   technologies,
-  experiences,
+  // experiences,
   testimonials,
-  projects,
+  // projects,
   socials,
   heroTexts,
 };

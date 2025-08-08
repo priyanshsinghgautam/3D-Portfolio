@@ -6,7 +6,7 @@ import Moon from "./../public/assets/moon_icon.svg";
 
 function ThemeButton() {
 	const [mounted, setMounted] = useState(false);
-	const { theme, setTheme } = useTheme("dark");
+	const { theme, setTheme } = useTheme("light");
 
 	useEffect(() => {
 		setMounted(true);
@@ -19,11 +19,11 @@ function ThemeButton() {
 	return (
 		<button
 			onClick={() =>
-				theme === "dark" ? setTheme("light") : setTheme("dark")
+				theme === "light" ? setTheme("dark") : setTheme("light")
 			}
 			className="rounded-full w-8 h-8 p-2 flex justify-center items-center backdrop-filter backdrop-blur-xl bg-opacity-20 bg-[#8c9db1] dark:bg-[#21213467] transition-all duration-100 ease-in text-ctnPrimaryLight dark:text-ctnPrimaryDark"
 		>
-			{theme === "dark" ? <Moon /> : <Sun />}
+			{theme === "light" ? <Sun /> : <Moon />}
 		</button>
 	);
 }

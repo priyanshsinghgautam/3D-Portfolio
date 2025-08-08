@@ -28,27 +28,24 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
+          Hello! I'm Priyansh Singh Gautam, a dedicated web developer and creative problem solver. I'm currently pursuing a B.Tech degree in Computer Science, with a strong interest in designing intuitive and user-friendly digital experiences.
+
+          My expertise lies in front-end development using React, along with a growing skill set in UI/UX design. I have hands-on experience with modern technologies like JavaScript, TailwindCSS, and Next.js. I enjoy building visually appealing, responsive websites and constantly exploring new tools to enhance my workflow.
+
+          I'm passionate about turning ideas into clean, functional web applications.
           <br className="sm:block hidden" />
-          Let&apos;s collaborate to bring your ideas to life!
+          Let’s collaborate and build something amazing together!
+
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:shivamsharma77607@gmail.com"
+            href="mailto:priyanshgautam45@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+            priyanshgautam45@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +61,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="document/resumenew.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"
