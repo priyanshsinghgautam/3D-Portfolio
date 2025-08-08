@@ -28,15 +28,15 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I'm Priyansh Singh Gautam, a dedicated web developer and creative problem solver. I'm currently pursuing a B.Tech degree in Computer Science, with a strong interest in designing intuitive and user-friendly digital experiences.
+          Hello! I&apos;m Priyansh Singh Gautam, a dedicated web developer and creative problem solver. I&apos;m currently pursuing a B.Tech degree in Computer Science, with a strong interest in designing intuitive and user-friendly digital experiences.
 
           My expertise lies in front-end development using React, along with a growing skill set in UI/UX design. I have hands-on experience with modern technologies like JavaScript, TailwindCSS, and Next.js. I enjoy building visually appealing, responsive websites and constantly exploring new tools to enhance my workflow.
 
-          I'm passionate about turning ideas into clean, functional web applications.
+          I&apos;m passionate about turning ideas into clean, functional web applications.
           <br className="sm:block hidden" />
-          Let’s collaborate and build something amazing together!
-
+          Let&apos;s collaborate and build something amazing together!
         </div>
+
         <div className="w-fit break-words">
           <Link
             href="mailto:priyanshgautam45@gmail.com"
